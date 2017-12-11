@@ -3,5 +3,5 @@
   roles:
     - karthik.httpd
   tasks:
-    - git: repo:https://github.com/demoglot/html-sample-food.git dest=/var/www/html
+    - git: repo:https;//github.com/demoglot/html-sample-food.git dest=/var/www/html
 
