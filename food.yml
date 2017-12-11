@@ -1,0 +1,7 @@
+---
+- hosts:192.168.56.102
+  roles:
+    - karthik.httpd
+  tasks:
+    - git: repo:https://github.com/demoglot/html-sample-food.git dest=/var/www/html
+
